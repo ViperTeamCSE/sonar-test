@@ -10,6 +10,11 @@ public class BadMath : IDisposable
             return x * factorial(x - 1);
     }
 
+    public int FibonacciSeries(int n)  
+        {  
+            return FibonacciSeries(n - 1) + FibonacciSeries(n - 2);  
+        }  
+
     public void Dispose()
     {
         
